@@ -1,0 +1,238 @@
+/*--------------------------------------------------------------------------------
+# ah-68-Flexi 2.5 - Dezember 2012 (J2.5)
+# Copyright (C) 2006-2012 www.ah-68.de All Rights Reserved.
+----------------------------------------------------------------------------------*/
+
+/* Setup*/
+ul.menusf-menu, ul.menusf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.menusf-menu {
+	line-height: 1.0;
+}
+ul.menusf-menu ul {
+	position: absolute;
+	top: -999em;
+	margin: 0;
+	padding: 10px 10px 5px 10px;
+	z-index: 99999;
+	background-color: #fff;
+	-moz-box-shadow: 0 3px 3px #969696;
+	-webkit-box-shadow: 0 3px 3px #969696;
+	box-shadow: 0 3px 3px #969696;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px
+}
+ul.menusf-menu ul ul {
+	z-index: 99999;
+	margin-left: 7px;
+	-moz-box-shadow: 0 1px 5px #888;
+	-webkit-box-shadow: 0 1px 5px #888;
+	box-shadow: 0 1px 5px #888;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px
+}
+.menusf-menu ul li {
+}
+.menusf-menu li:hover {
+	visibility: inherit;
+}
+.menusf-menu li {
+	float:	 left;
+	position: relative;
+}
+.menusf-menu a {
+	display: block;
+	position: relative;
+}
+.menusf-menu li:hover ul, .menusf-menu li.sfHover ul {
+	left:	0;
+	top:	65px;
+	z-index: 99999;
+}
+ul.menusf-menu li:hover li ul, ul.menusf-menu li.sfHover li ul {
+	top:	-999em;
+}
+ul.menusf-menu li li:hover ul, ul.menusf-menu li li.sfHover ul {
+	top:	0;
+}
+ul.menusf-menu li li:hover li ul, ul.menusf-menu li li.sfHover li ul {
+	top:	-999em;
+}
+ul.menusf-menu li li li:hover ul, ul.menusf-menu li li li.sfHover ul {
+	top:	0;
+}
+/* Style */
+ul.menusf-menu {
+	float:	 left;
+	margin-bottom: 1em;
+}
+ul.menusf-menu li a, ul.menusf-menu li .separator {
+	display: block;
+	padding : 0;
+	margin : 0 15px;
+	text-transform: none;
+	text-align: left;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 2px solid;
+ transition: color .5s ease-in-out, border .5s ease-in-out;
+ -o-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -ms-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -moz-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -webkit-transition: color .5s ease-in-out, border .5s ease-in-out;
+}
+ul.menusf-menu li a:hover, ul.menusf-menu li.active a {
+	text-decoration:none
+}
+ul.menusf-menu li {
+	margin : 0;
+	padding: 0
+}
+/*** Sub Menu ***/
+ul.menusf-menu ul li a {
+	text-transform:none;
+	display: block;
+	text-align: left;
+	padding: 0 10px 0 0;
+	margin: 0;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+ transition: color .5s ease-in-out, background .5s ease-in-out;
+ -o-transition: color .5s ease-in-out, background .5s ease-in-out;
+ -ms-transition: color .5s ease-in-out, background .5s ease-in-out;
+ -moz-transition: color .5s ease-in-out, background .5s ease-in-out;
+ -webkit-transition: color .5s ease-in-out, background .5s ease-in-out;
+}
+ul.menusf-menu ul li {
+	margin: 0 0 5px 0
+}
+ul.menusf-menu ul li a:before {
+	content:"\003e";
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: normal
+}
+/* Arrows*/
+.menusf-menu a.sf-with-ul:after {
+	content:"\03bd";
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: normal
+}
+.menusf-menu li li a.sf-with-ul:after {
+	content:"\2605";
+	font-size: 14px;
+	float: right;
+	padding-left: 5px
+}
+span.sf-sub-indicator {
+	display: none;
+	visibility: hidden
+}
+/*** Vertical Menu ***/
+
+
+/* Setup*/
+.menusf-vmenu, .menusf-vmenu * {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+ul.menusf-vmenu {
+	line-height: 1.0
+}
+ul.menusf-vmenu ul {
+	z-index: 99999;
+	position: absolute;
+	top: -999em
+}
+ul.menusf-vmenu ul ul {
+	z-index: 99999;
+	margin-left: 5px
+}
+ul.menusf-vmenu ul li {
+	width: 100%;
+	position: relative
+}
+ul.menusf-vmenu li:hover {
+	visibility: inherit
+}
+.menusf-vmenu li {
+	float:	 left;
+	position: relative
+}
+ul.menusf-vmenu a {
+	display: block;
+	position: relative
+}
+ul.menusf-vmenu li:hover li ul, ul.menusf-vmenu li.sfHover li ul {
+	top:	-999em
+}
+ul.menusf-vmenu li li:hover ul, ul.menusf-vmenu li li.sfHover ul {
+	top:	0
+}
+ul.menusf-vmenu li li:hover li ul, ul.menusf-vmenu li li.sfHover li ul {
+	top:	-999em
+}
+ul.menusf-vmenu li li li:hover ul, ul.menusf-vmenu li li li.sfHover ul {
+	top:	0
+}
+.menusf-vmenu, .menusf-vmenu li {
+	width:	190px
+}
+.menusf-vmenu li:hover ul, .menusf-vmenu li.sfHover ul {
+	left:	195px;
+	top:	0
+}
+.menusf-vmenu ul {
+	padding: 8px 8px 5px 8px;
+	z-index: 99999;
+	background-color: #fff;
+	-moz-box-shadow: 0 1px 5px #888;
+	-webkit-box-shadow: 0 1px 5px #888;
+	box-shadow: 0 1px 5px #888;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px
+}
+/* Style */
+ul.menusf-vmenu li a {
+	display: block;
+	margin: 0 0 2px 0;
+	padding: 8px 10px;
+ transition: background .5s ease-in-out;
+ -o-transition: background .5s ease-in-out;
+ -ms-transition: background .5s ease-in-out;
+ -moz-transition: background .5s ease-in-out;
+ -webkit-transition: background .5s ease-in-out;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px
+}
+ul.menusf-vmenu li a:before {
+	content:"\003e";
+	padding-right: 5px;
+	font-size: 14px;
+	font-weight: normal
+}
+ul.menusf-vmenu ul li a {
+	padding: 8px 10px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px
+}
+ul.menusf-vmenu a.sf-with-ul:after {
+	float: right;
+	font-size: 14px;
+	content:"\2605";
+	padding-left: 5px
+}

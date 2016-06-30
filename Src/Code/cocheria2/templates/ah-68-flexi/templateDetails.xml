@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" client="site" method="upgrade">
+<name>ah-68-Flexi</name>
+<creationDate>16.01.2013</creationDate>
+<author>Alexander Hanke</author>
+<authorEmail>ahanke@ah-68.de</authorEmail>
+<authorUrl>http://www.ah-68.de</authorUrl>
+<license>Creative Commons ShareAlike 3.0</license>
+<version>2.5.1</version>
+<description>
+<![CDATA[<style type="text/css" media="all">
+<!--
+#wrap {
+padding:0;
+margin:0;
+text-align: justify;
+font-size:12px;
+color:#555
+}						
+#wrap a, #wrap a:link, #wrap a:visited {color: #4C9A38}
+#wrap a:hover {color: #5EB449}						
+hr {border: none; background-color: #ddd; margin: 10px 0}    
+.pane-sliders .panel {
+color: #5c5c5c;
+background-color:#f8f8f8;
+border:1px solid #ddd
+}                    
+h3 {
+clear:both;
+font-size:15px;
+margin: 5px 2px 10px 0px;
+padding: 2px 10px !important;
+color: #4C9A38;
+background-color:#f8f8f8
+}
+input, select {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid silver;
+font-size: 1em;
+padding: 2px 5px;
+}							
+input#jform_params_bodybgrepeat, select#jform_params_bodybgrepeat {
+min-width: 150px;
+}
+fieldset.panelform label, fieldset.panelform div.paramrow label, fieldset.panelform span.faux-label {
+max-width: 280px;
+min-width: 160px;
+padding: 2px 5px;
+}
+fieldset.adminform fieldset.radio, fieldset.panelform fieldset.radio, fieldset.adminform-legacy fieldset.radio {
+margin: 3px 0
+}
+.fltlft {
+min-width: 160px;
+}
+.media-preview.fltlft {
+margin: 3px 0px 3px 175px;
+font-size: 12px;
+}
+
+
+-->
+</style>
+                        
+<div id="wrap">    
+	                    
+<h3>Template Flexi J2.5 Native free Version <br /> (no support)</h3>
+                               Sollten Sie Interesse an einer lizenzfreien Version haben, können
+	                           Sie nach dieser gerne unter folgender E Mail anfragen: <a href="mailto:ahanke@ah-68.de" title="E Mail an ah-68">ah-68</a>
+							   oder über den PayPal Link auf der Seite <a href="http://demoseite.ah-68.de/flexi/template-flexi.html" title="Demoseite besuchen - Template Flexi 2.5" target="_blank">demoseite.ah-68</a> erwerben (direkter Download nach Bezahlung).
+	                           Die lizenzfreie Version beinhaltet alle Photoshop Dateien, bietet Ihnen
+							   zusätzlich Support, verfügt über keine Template Design Links zu meiner
+							   Seite und kostet 15,-- Euro.
+	                           <br /><br />		 
+	                           If you are interested in a licence free version without any template
+	                           design link including all Photoshop files, please contact <a href="mailto:ahanke@ah-68.de" title="E Mail to ah-68">ah-68</a>
+	                           (including support) or follow the PayPal link on <a href="http://demoseite.ah-68.de/flexi/template-flexi.html" title="visit demo site - Template Flexi 2.5" target="_blank">demoseite.ah-68</a> (direct download after payment). The licence free Version costs 15,-- Euro.
+                         
+</div>
+
+]]>
+
+
+</description>
+
+
+<files>
+	<filename>index.php</filename>
+	<filename>index.html</filename>
+	<filename>error.php</filename>
+	<filename>offline.php</filename>
+	<filename>component.php</filename>
+	<filename>favicon.ico</filename>		
+	<filename>templateDetails.xml</filename>	
+	<filename>template_thumbnail.png</filename>
+	<filename>template_preview.png</filename>
+	<folder>images</folder>
+	<folder>images/bg</folder>
+	<folder>images/icons</folder>
+	<folder>images/logo</folder>
+	<folder>images/system</folder>
+	<folder>css</folder>
+	<folder>js</folder>
+	<folder>js/jscolor</folder>
+	<folder>html</folder>
+	<folder>php</folder>
+</files>
+	
+<positions>		
+	<position>left</position>
+	<position>right</position>
+	<position>top1</position>
+	<position>top2</position>
+	<position>top3</position>
+	<position>top4</position>
+	<position>content-top1</position>
+	<position>content-top2</position>
+	<position>content-top3</position>	
+	<position>content-bottom1</position>
+	<position>content-bottom2</position>
+	<position>content-bottom3</position>
+	<position>bottom1</position>
+	<position>bottom2</position>
+	<position>bottom3</position>
+	<position>bottom4</position>
+	<position>footer1</position>
+	<position>footer2</position>
+	<position>footer3</position>
+	<position>footer4</position>
+	<position>tab1</position>
+	<position>tab2</position>
+	<position>tab3</position>
+	<position>tab4</position>
+    <position>tab5</position>
+	<position>tab6</position>
+	<position>tab7</position>
+	<position>tab8</position>
+	<position>tab9</position>	
+	<position>syndicate</position>
+	<position>breadcrumbs</position>
+	<position>superfish</position>
+	<position>multimenu</position>
+	<position>top-slider</position>
+	<position>bottom-slider</position>
+	<position>sidebar</position>
+	<position>search</position>
+	<position>topnav</position>
+</positions>	
+
+<config>	
+<fields name="params">
+
+<fieldset name="general" description="" label="General Template Setup">
+<field type="spacer" label="&lt;script src='../templates/ah-68-flexi/js/jscolor/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+<field name="bodyColor" type="text" default="5C5C5C" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Body Font Color" description="choose Body Color"/>
+<field name="bodyfontsize" type="text" default="14" label="Body Font Size" description="choose Body Font Size (px)"/>
+<field name="bodyfontfamily"  type="list" default="Arial, Helvetica, sans-serif" label="Body Font Family" description="choose Body Font Family">
+		            <option value="Arial, Helvetica, sans-serif">Arial</option>
+					<option value="Geneva, Arial, Helvetica, sans-serif">Geneva</option>
+					<option value="Verdana, Arial, Helvetica, sans-serif">Verdana</option>
+					<option value="Georgia, Times New Roman, Times, serif">Georgia</option>
+</field>
+<field name="bodylineheight" type="text" default="150" label="Body Line Height" description="choose Body Line Height (%)"/>
+<field name="bodybgColor" type="text" default="F5F5F5" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Body Background Color" description="choose Body Background Color"/>
+<field name="bodybg" type="imagelist" default="bg.5x5-1.gif" label="Body Background Image" hide_default="no" exclude="" stripext=""  description="choose Background Image" directory="/templates/ah-68-flexi/images/bg/" />
+<field name="bodybguploadchoice" type="radio" default="0" label="Use own Background Image" description="Use own Background Image">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+</field>				
+<field name="bodybgupload" type="media" size="20" hide_default="0" label="Choose own Image" description="choose own Image to Upload" />
+<field name="bodybgrepeat" type="list" default="repeat" label="Body Background Repeat" description="Body Background Repeat">
+					<option value="repeat">repeat</option>
+					<option value="no-repeat">no-repeat</option>
+					<option value="repeat-x">repeat-x</option>
+					<option value="repeat-y">repeat-y</option>
+</field>
+<field type="spacer" hr="true" />
+<field name="h1color" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="H1 Font Color" description="choose Font Color"/>
+<field name="h2color" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="H2 Font Color" description="choose Font Color"/>
+<field name="h3color" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="H3 Font Color" description="choose Font Color"/>
+<field name="h4h5h6" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="H4, H5, H6 Font Color" description="choose Font Color"/>
+<field type="spacer" hr="true" />
+<field name="alinkColor" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Link Font Color" description="choose Link Font Color"/>
+<field name="ahoverlinkColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Link Font Color" description="choose Link Hover Font Color"/>
+<field type="spacer" hr="true" />
+<field name="highlight" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Highlight Font Color" description="choose Highlight Font Color"/>
+<field name="invalid" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Invalid Color" description="choose Invalid Color"/>
+<field name="labelinvalid" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Label Invalid Color" description="choose Label Invalid Color"/>
+<field type="spacer" hr="true" />
+<field name="separator" type="text" default="BBBBBB" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Separator Color" description="choose Article Separator Color"/>
+<field name="separatorstyle" type="list" default="solid" label="Separator Border Style" description="choose Article Separator Border Style">
+					<option value="solid">solid</option>
+					<option value="dashed">dashed</option>
+					<option value="dotted">dotted</option>
+					<option value="double">double</option>
+					<option value="none">none</option>
+</field>
+<field name="separatorsize" type="text" default="1" label="Border Size" description="choose Border Size (Pixel) What Ever Size"/>
+<field type="spacer" hr="true" />
+<field name="topstripeColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Top Stripe Color" description="choose Top Stripe Color"/>
+<field name="topstripeHeight" type="text" default="2" label="Top Stripe Height" description="choose Top Stripe Height (Pixel) What Ever Size"/>
+<field name="bottomstripeColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Bottom Stripe Color" description="choose Bottom Stripe Color"/>
+<field name="bottomstripeHeight" type="text" default="2" label="Bottom Stripe Height" description="choose Bottom Stripe Height (Pixel) What Ever Size"/>
+</fieldset>
+
+<fieldset name="header" description="" label="Header Setup">
+<field type="spacer" hr="false" />
+<field name="logo" type="imagelist" default="logo.png" label="Logo Image" hide_default="no" exclude="" stripext=""  description="choose Logo Image" directory="/templates/ah-68-flexi/images/logo/" />
+<field name="logouploadchoice" type="radio" default="0" label="Upload own Image" description="Upload own Image">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+</field>	
+<field name="logoupload" type="media" size="20" hide_default="0" label="Choose own Image" description="choose own Image to upload" />
+<field type="spacer" hr="true" />
+<field name="logotitle" type="text" default="Welcome" label="Logo Title" description="choose Logo Image Title"/>
+<field name="logowidth" type="text" default="480" label="Logo Width" description="choose Logo Width (Pixel) Max Size 960"/>
+<field name="logoheight" type="text" default="120" label="Logo Height" description="choose Logo Height (Pixel) What Ever Size"/>
+</fieldset>
+
+<fieldset name="module" description="" label="Module Setup">
+<field type="spacer" hr="false" />
+<field name="moduleh3Color" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Module H3 Font Color" description="choose Module H3 Font Color"/>
+<field name="moduleh3bgColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Module H3 Background Color" description="choose Module H3 Background Color"/>
+<field name="modulefontColor" type="text" default="5C5C5C" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Module Font Color" description="choose Module Font Color"/>
+<field name="modulebgColor" type="text" default="F5F5F5" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Module Background Color" description="choose Module Background Color"/>
+</fieldset>
+
+<fieldset name="inputColors" description="" label="Input and Row Colors">
+<field type="spacer" hr="false" />
+<field name="inputColor" type="text" default="5C5C5C" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Input Font Color" description="choose Input Font Color"/>
+<field name="inputbgColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Input Background Color" description="choose Input Background Color"/>
+<field name="inputhoverColor" type="text" default="6C6C6C" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Input Font Color" description="choose Input Hover Font Color"/>
+<field name="inputbghoverColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Input Background Color" description="choose Input Hover Background Color"/>
+<field name="row0" type="text" default="F5F5F5" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Row 0 Background Color" description="choose Row 0 Background Color"/>
+<field name="row0borderColor" type="text" default="CCCCCC" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Row 0 Border Color" description="choose Row 0 Border Color"/>
+<field name="row1" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Row 1 Background Color" description="choose Row 1 Background Color"/>
+<field name="row1borderColor" type="text" default="DDDDDD" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Row 1 Border Color" description="choose Row 1 Border Color"/>
+<field name="hitsborderColor" type="text" default="DDDDDD" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hits Border Color" description="choose TD Hits Border Left Color"/>
+</fieldset>
+
+<fieldset name="buttoncolors" description="" label="Button Colors">
+<field type="spacer" hr="false" />
+<field name="abuttonColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Font Color" description="choose Body Color"/>
+<field name="bgbuttonColor" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Background Color" description="choose Link Font Color"/>
+<field name="abuttonhoverColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Font Color" description="choose Body Color"/>
+<field name="bgbuttonhoverColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label=" Hover Background Color" description="choose Link Font Color"/>
+</fieldset>
+
+<fieldset name="readmorecolors" description="" label="Readmore Colors">
+<field type="spacer" hr="false" />
+<field name="areadmoreColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Font Color" description="choose Body Color"/>
+<field name="bgreadmoreColor" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Background Color" description="choose Link Font Color"/>
+<field name="areadmorehoverColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Font Color" description="choose Body Color"/>
+<field name="bgreadmorehoverColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label=" Hover Background Color" description="choose Link Font Color"/>
+</fieldset>
+
+<fieldset name="supersetup" description="" label="Superfish Horizontal Menu Setup">
+<field type="spacer" hr="false" />
+<field name="sfduration" type="text" default="800" label="Duration Effect" description="One Second Delay on Mouseout" />
+<field name="sfopacity" type="text" default="show" label="Opacity Effect" description="Fade-in Animation" />
+<field name="sfheight" type="text" default="show" label="Height Effect" description="Slide-down Animation" />
+<field name="sfspeed" type="text" default="normal" label="Drop down speed" description="Speed of Drop Down Animation (fast, normal or slow)" />
+<field name="sfminwidth" type="text" default="13" label="Submenu min Width" description="Minimum width of Submenu in em Units" />
+<field name="sfmaxwidth" type="text" default="28" label="Submenu max Width" description="Maximum width of Submenu in em Units" />
+<field name="sfextrawidth" type="text" default="0" label="Extra Width" description="Extra Width can ensure Lines in em Units" />
+<field type="spacer" hr="true" />
+<field name="alinksupermenuColor" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Font Color" description="choose Font Color"/>
+<field name="sffontsize" type="text" default="18" label="Main Font Size" description="choose Main Font Size (px)"/>
+<field name="sffontweight" type="text" default="bold" label="Main Font Weight" description="choose Main Font Weight (bold, normal, lighter)"/>
+<field name="bordersupermenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Border Color" description="choose Border Color"/>
+<field name="ahoverlinksupermenuColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Font Color" description="choose Hover Font Color"/>
+<field name="bordersupermenuhoverColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Border Color" description="choose Hover Border Color"/>
+<field name="activelinksupermenuColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Font Color" description="choose Active Font Color"/>
+<field name="bordersupermenuactiveColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Border Color" description="choose Active Border Color"/>
+<field type="spacer" hr="true" />
+<field name="alinksfmenuColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Sub Font Color" description="choose Sub Font Color"/>
+<field name="sfsubfontsize" type="text" default="13" label="Sub Font Size" description="choose Sub Font Size (px)"/>
+<field name="sfsubfontweight" type="text" default="normal" label="Sub Font Weight" description="choose Sub Font Weight (bold, normal, lighter)"/>
+<field name="alinksfhovermenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Sub Hover Font Color" description="choose Sub Hover Font Color"/>
+<field name="alinksfactivemenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Sub Active Font Color" description="choose Sub Acive Font Color"/>
+<field name="subsuperbg" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Sub Bg Color" description="choose Sub Bg Color"/>
+<field name="subsuperhoverbg" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Sub Bg Color" description="choose Hover Sub Bg Color"/>
+<field name="subsuperactivebg" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Sub Bg Color" description="choose Active Sub Bg Color"/>
+</fieldset>
+
+<fieldset name="superverticalsetup" description="" label="Superfish Vertical Menu Setup">
+<field type="spacer" hr="false" />
+<field name="sfvduration" type="text" default="800" label="Duration Effect" description="One Second Delay on Mouseout" />
+<field name="sfvopacity" type="text" default="show" label="Opacity Effect" description="Fade-in Animation" />
+<field name="sfvheight" type="text" default="show" label="Height Effect" description="Slide-down Animation" />
+<field name="sfvspeed" type="text" default="normal" label="Drop down speed" description="Speed of Drop Down Animation (fast, normal or slow)" />
+<field name="sfvminwidth" type="text" default="13" label="Submenu min Width" description="Minimum width of Submenu in em Units" />
+<field name="sfvmaxwidth" type="text" default="28" label="Submenu max Width" description="Maximum width of Submenu in em Units" />
+<field name="sfvextrawidth" type="text" default="0" label="Extra Width" description="Extra Width can ensure Lines in em Units" />
+<field type="spacer" hr="true" />
+<field name="alinksfvmenuColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Font Color" description="choose Font Color"/>
+<field name="sfvfontsize" type="text" default="14" label="Font Size" description="choose Font Size (px)"/>
+<field name="sfvfontweight" type="text" default="normal" label="Font Weight" description="choose Font Weight (bold, normal, lighter)"/>
+<field name="sfsubvfontsize" type="text" default="13" label="Sub Font Size" description="choose Sub Font Size (px)"/>
+<field name="sfsubvfontweight" type="text" default="normal" label="Sub Font Weight" description="choose Sub Font Weight (bold, normal, lighter)"/>
+<field name="alinksfvhovermenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Font Color" description="choose Hover Font Color"/>
+<field name="alinksfvactivemenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Font Color" description="choose Acive Font Color"/>
+<field name="subsupervbg" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Bg Color" description="choose Bg Color"/>
+<field name="subsupervhoverbg" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Bg Color" description="choose Hover Bg Color"/>
+<field name="subsupervactivebg" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Bg Color" description="choose Active Bg Color"/>
+</fieldset>
+
+<fieldset name="multisetup" description="" label="Multimenu Setup">
+<field type="spacer" hr="false" />
+<field name="rowItems" type="text" default="3" label="Submenu rows" description="Number of sub-menus in each row" />
+<field name="speed" type="text" default="normal" label="Drop down speed" description="Speed of drop down animation (fast, normal or slow)" />
+<field name="effect" type="text" default="slide" label="Effect" description="Type of drop down animation (slide or fade)" />
+<field name="event" type="text" default="hover" label="Event" description="Use either (hover or click)" />
+<field name="fullWidth" type="text" default="false" label="Submenu size" description="Set to true to always show sub-menus at 100%" />
+<field type="spacer" hr="true" />
+<field name="alinkmultimenuColor" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Font Color" description="choose Font Color"/>
+<field name="multifontsize" type="text" default="18" label="Main Font Size" description="choose Main Font Size (px)"/>
+<field name="multifontweight" type="text" default="bold" label="Main Font Weight" description="choose Main Font Weight (bold, normal, lighter)"/>
+<field name="bordermultimenuColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Border Color" description="choose Border Color"/>
+<field type="spacer" hr="true" />
+<field name="ahoverlinkmultimenuColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Font Color" description="choose Body Color"/>
+<field name="bordermultimenuhoverColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Border Color" description="choose Link Font Color"/>
+<field name="activelinkmultimenuColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Font Color" description="choose Body Color"/>
+<field name="bordermultimenuactiveColor" type="text" default="5EB449" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Active Border Color" description="choose Link Font Color"/>
+<field type="spacer" hr="true" />
+<field name="megahdrColor" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Megahead Font Color" description="Megahead Font Color"/>
+<field name="megahdrbg" type="text" default="4C9A38" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Megahead Bg Color" description="Megahead Bg Color"/>
+<field name="megahdrhoverColor" type="text" default="FFFFFF" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Megahead Font Color" description="Hover Megahead Font Color"/>
+<field name="megahdrhoverbg" type="text" default="5EB449" class="color {hash:true, caps:true,}" label="Hover Megahead Bg Color" description="Hover Megahead Bg Color"/>
+<field name="multimegafontsize" type="text" default="14" label="Megahead Font Size" description="choose Megahead Font Size (px) "/>
+<field name="multimegafontweight" type="text" default="bold" label="Megahead Font Weight" description="choose Megahead Font Weight (bold, normal, lighter)"/>
+<field type="spacer" hr="true" />
+<field name="submegabg" type="text" default="F5F5F5" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Sub Background Color" description="choose Sub Background Color"/>
+<field name="submegahoverbg" type="text" default="FAFAFA" class="color {hash:true, caps:true, pickerFaceColor:'#4c4c4c'}" label="Hover Sub Bg Color" description="choose Hover Sub Background Color"/>
+<field name="submegafontsize" type="text" default="13" label="Sub Font Size" description="choose Sub Font Size (px) "/>
+<field name="submegafontweight" type="text" default="normal" label="Sub Font Weight" description="choose Sub Weight (bold, normal, lighter)"/>
+</fieldset>
+
+<fieldset name="footercopy" description="" label="Footer Copyright Setup">
+<field type="spacer" hr="true" />
+<field name="copyrightText" type="text" default="2012 Alle Rechte vorbehalten by" label="Copyright Text" description="choose Copyright Text"/>
+<field name="copyrightLink" type="text" default="ah-68" label="Copyright Link" description="choose Copyright Link Text"/>
+<field name="copyrightURL" type="text" default="index.php" label="Copyright URL" description="choose Copyright URL (Default index.php)"/>
+</fieldset>
+
+
+</fields>	
+</config>	
+</extension>

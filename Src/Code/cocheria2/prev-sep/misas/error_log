@@ -1,0 +1,3 @@
+[23-Sep-2013 09:51:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 49
+[23-Sep-2013 11:06:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 79
+[23-Sep-2013 11:06:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 79

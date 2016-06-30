@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:webserv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:webserv" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:webserv">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultaSepeliosRequest" />
+  <wsdl:message name="ConsultaSepeliosResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="CrearSepelioRequest">
+    <wsdl:part name="Nombre" type="xsd:string" />
+    <wsdl:part name="FechaFallecimiento" type="xsd:date" />
+    <wsdl:part name="FechaSepelio" type="xsd:date" />
+    <wsdl:part name="HoraInhumacion" type="xsd:string" />
+    <wsdl:part name="Localidad" type="xsd:int" />
+    <wsdl:part name="NombreLocalidad" type="xsd:string" />
+    <wsdl:part name="OtroCementerioCrematorio" type="xsd:string" />
+    <wsdl:part name="Sala" type="xsd:int" />
+    <wsdl:part name="NombreSala" type="xsd:string" />
+    <wsdl:part name="FechaMisa" type="xsd:date" />
+    <wsdl:part name="HoraMisa" type="xsd:string" />
+    <wsdl:part name="IglesiaId" type="xsd:int" />
+    <wsdl:part name="NombreIglesia" type="xsd:string" />
+    <wsdl:part name="OtroLugarMisa" type="xsd:string" />
+    <wsdl:part name="LugarInhumacion" type="xsd:int" />
+    <wsdl:part name="NombreLugarInhumacion" type="xsd:string" />
+    <wsdl:part name="FechaNacimiento" type="xsd:date" />
+    <wsdl:part name="OpcionInhumacionCremacion" type="xsd:int" />
+    <wsdl:part name="LugarCremacion" type="xsd:int" />
+    <wsdl:part name="NombreLugarCremacion" type="xsd:string" />
+    <wsdl:part name="NombreOtraSala" type="xsd:string" />
+    <wsdl:part name="DomicilioOtraSala" type="xsd:string" />
+    <wsdl:part name="IdOracion" type="xsd:int" />
+    <wsdl:part name="NombreOracion" type="xsd:string" />
+    <wsdl:part name="ContenidoOracion" type="xsd:string" />
+    <wsdl:part name="IdCocheria" type="xsd:int" />
+    <wsdl:part name="DomicilioSala" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="CrearSepelioResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarSepelioRequest">
+    <wsdl:part name="Nombre" type="xsd:string" />
+    <wsdl:part name="FechaFallecimiento" type="xsd:date" />
+    <wsdl:part name="FechaSepelio" type="xsd:date" />
+    <wsdl:part name="HoraInhumacion" type="xsd:string" />
+    <wsdl:part name="Localidad" type="xsd:int" />
+    <wsdl:part name="NombreLocalidad" type="xsd:string" />
+    <wsdl:part name="OtroCementerioCrematorio" type="xsd:string" />
+    <wsdl:part name="Sala" type="xsd:int" />
+    <wsdl:part name="NombreSala" type="xsd:string" />
+    <wsdl:part name="FechaMisa" type="xsd:date" />
+    <wsdl:part name="HoraMisa" type="xsd:string" />
+    <wsdl:part name="IglesiaId" type="xsd:int" />
+    <wsdl:part name="NombreIglesia" type="xsd:string" />
+    <wsdl:part name="OtroLugarMisa" type="xsd:string" />
+    <wsdl:part name="LugarInhumacion" type="xsd:int" />
+    <wsdl:part name="NombreLugarInhumacion" type="xsd:string" />
+    <wsdl:part name="FechaNacimiento" type="xsd:date" />
+    <wsdl:part name="OpcionInhumacionCremacion" type="xsd:int" />
+    <wsdl:part name="LugarCremacion" type="xsd:int" />
+    <wsdl:part name="NombreLugarCremacion" type="xsd:string" />
+    <wsdl:part name="NombreOtraSala" type="xsd:string" />
+    <wsdl:part name="DomicilioOtraSala" type="xsd:string" />
+    <wsdl:part name="IdOracion" type="xsd:int" />
+    <wsdl:part name="NombreOracion" type="xsd:string" />
+    <wsdl:part name="ContenidoOracion" type="xsd:string" />
+    <wsdl:part name="IdCocheria" type="xsd:int" />
+    <wsdl:part name="DomicilioSala" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ActualizarSepelioResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="webservPortType">
+    <wsdl:operation name="ConsultaSepelios">
+      <wsdl:input message="tns:ConsultaSepeliosRequest" />
+      <wsdl:output message="tns:ConsultaSepeliosResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CrearSepelio">
+      <wsdl:input message="tns:CrearSepelioRequest" />
+      <wsdl:output message="tns:CrearSepelioResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarSepelio">
+      <wsdl:input message="tns:ActualizarSepelioRequest" />
+      <wsdl:output message="tns:ActualizarSepelioResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="webservBinding" type="tns:webservPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="ConsultaSepelios">
+      <soap:operation soapAction="http://www.activacionesclaromg.com.ar/activaciones/webservice/server.php/ConsultaSepelios" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CrearSepelio">
+      <soap:operation soapAction="http://www.activacionesclaromg.com.ar/activaciones/webservice/server.php/CrearSepelio" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarSepelio">
+      <soap:operation soapAction="http://www.activacionesclaromg.com.ar/activaciones/webservice/server.php/ActualizarSepelio" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="webserv">
+    <wsdl:port name="webservPort" binding="tns:webservBinding">
+      <soap:address location="http://www.activacionesclaromg.com.ar/activaciones/webservice/server.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,161 @@
+/*
+
+ * jQuery JJ Slider
+
+ * euCSO.info
+
+ *
+
+ * Copyright 2005-2011, euCSO.info
+
+ * Free to use and abuse under the MIT license.
+
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * 
+
+ * November 2011
+
+ */
+
+ 
+
+ 
+
+/* The JJ Slider styles */
+
+.jjSlider {
+
+	position:relative;
+
+}
+
+.jjSlider img {
+
+	position:absolute;
+
+	top:0px;
+
+	left:0px;
+
+}
+
+/* If an image is wrapped in a link */
+
+.jjSlider a.jj-imageLink {
+
+	position:absolute;
+
+	top:0px;
+
+	left:0px;
+
+	width:100%;
+
+	height:100%;
+
+	border:0;
+
+	padding:0;
+
+	margin:0;
+
+	z-index:6;
+
+	display:none;
+
+}
+
+/* The slices and boxes in the Slider */
+
+.jj-slice {
+
+	display:block;
+
+	position:absolute;
+
+	z-index:5;
+
+	height:100%;
+
+}
+
+.jj-box {
+
+	display:block;
+
+	position:absolute;
+
+	z-index:5;
+
+}
+
+/* Caption styles */
+
+
+
+.jj-caption p {
+
+	padding:5px;
+
+	margin:0;
+
+}
+
+.jj-caption a {
+
+	display:inline !important;
+
+}
+
+.jj-html-caption {
+
+    display:none;
+
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+
+.jj-directionNav a {
+
+	position:absolute;
+
+	top:45%;
+
+	z-index:9;
+
+	cursor:pointer;
+
+}
+
+.jj-prevNav {
+
+	left:0px;
+
+}
+
+.jj-nextNav {
+
+	right:0px;
+
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+
+.jj-controlNav a {
+
+	position:relative;
+
+	z-index:9;
+
+	cursor:pointer;
+	margin-top: 10px;
+
+}
+
+.jj-controlNav a.active {
+
+	font-weight:bold;
+
+}
+.joomla_pns {margin:0 auto;}

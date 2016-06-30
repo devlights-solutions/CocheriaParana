@@ -1,0 +1,178 @@
+/*--------------------------------------------------------------------------------
+# ah-68-Flexi 2.5 - Dezember 2012 (J2.5)
+# Copyright (C) 2006-2012 www.ah-68.de All Rights Reserved.
+----------------------------------------------------------------------------------*/
+
+.menumulti-menu ul, .menumulti-menu ul li {
+	list-style: none;
+}
+.menumulti-menu ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.menumulti-menu ul li ul {
+	display: none;
+}
+.menumulti-menu .sub {
+	display: none;
+}
+.menumulti-menu .sub ul {
+	display: block;
+}
+.menumulti-menu .full-width {
+	width: 100%;
+}
+ul.menumulti-menu, ul.menumulti-menu, ul.menumulti-menu li {
+	margin: 0;
+	padding: 0
+}
+ul.menumulti-menu {
+	position: relative
+}
+ul.menumulti-menu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+ul.menumulti-menu li a, ul.menumulti-menu li .separator {
+	display: block;
+	padding : 0;
+	margin : 0 15px;
+	text-transform: none;
+	text-align: left;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 2px solid;
+ transition: color .5s ease-in-out, border .5s ease-in-out;
+ -o-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -ms-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -moz-transition: color .5s ease-in-out, border .5s ease-in-out;
+ -webkit-transition: color .5s ease-in-out, border .5s ease-in-out;
+}
+ul.menumulti-menu li.multi-hover a, ul.menumulti-menu li a:hover {
+	text-decoration:none
+}
+ul.menumulti-menu li.active a {
+	text-decoration:none
+}
+ul.menumulti-menu li a.dc-mega {
+}
+ul.menumulti-menu li a .dc-mega-icon {
+}
+ul.menumulti-menu li a .dc-mega-icon:after {
+	content:"\03bd";
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	font-weight: normal
+}
+ul.menumulti-menu li.mega-hover a .dc-mega-icon {
+}
+ul.menumulti-menu li .sub-container {
+	position: absolute;
+}
+ul.menumulti-menu li .sub {
+	margin: 28px 0 0 -15px;
+	padding: 10px;
+	z-index: 9999;
+	background-color: #fff;
+	-moz-box-shadow: 0 3px 3px #888;
+	-webkit-box-shadow: 0 3px 3px #888;
+	box-shadow: 0 3px 3px #888;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px
+}
+ul.menumulti-menu li .sub-container.mega .sub {
+	padding : 10px 5px 0 10px
+}
+ul.menumulti-menu li .sub .row {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+ul.menumulti-menu li .sub li {
+	list-style: none;
+	float: none;
+	min-width: 180px
+}
+ul.menumulti-menu li .sub li.mega-hdr {
+	padding: 0 10px 5px 0;
+	float: left
+}
+ul.menumulti-menu li .sub a {
+	padding: 0 0 0 10px;
+	text-transform:none;
+	text-align: left;
+	margin: 0 0 5px 0;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+ transition: background .5s ease-in-out, color .5s ease-in-out;
+ -o-transition: background .5s ease-in-out, color .5s ease-in-out;
+ -ms-transition: background .5s ease-in-out, color .5s ease-in-out;
+ -moz-transition: background .5s ease-in-out, color .5s ease-in-out;
+ -webkit-transition: background .5s ease-in-out, color .5s ease-in-out;
+}
+ul.menumulti-menu li .sub a:before {
+	content:"\003e";
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: normal
+}
+ul.menumulti-menu li .sub li.mega-hdr a.mega-hdr-a {
+	padding: 0 0 0 10px;
+	margin: 5px 0
+}
+ul.menumulti-menu li .sub li.mega-hdr a.mega-hdr-a:before {
+	content:"";
+	padding: 0 0 0 10px
+}
+ul.menumulti-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+}
+ul.menumulti-menu .sub li.mega-hdr li a {
+	padding: 0 0 0 10px
+}
+ul.menumulti-menu .sub li.mega-hdr li a:hover, ul.menumulti-menu .sub li.mega-hdr li.active a {
+}
+ul.menumulti-menu .sub ul li {
+	padding: 0;
+}
+ul.menumulti-menu li .sub-container.non-mega .sub {
+	margin: 28px 0 0 0;
+	padding: 10px;
+	z-index: 9999;
+	background-color: #fff;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px
+}
+ul.menumulti-menu li .sub-container.non-mega li {
+	padding: 5px 0 0 0;
+	min-width: 180px;
+	margin: 0
+}
+ul.menumulti-menu li .sub-container.non-mega li a {
+	text-align: left;
+	padding: 0 0 0 10px;
+	margin: 0;
+	height: 28px;
+	line-height: 28px
+}
+ul.menumulti-menu li .sub-container.non-mega li a:before {
+	content:"\003e";
+	padding: 0 10px 0 5px;
+	font-size: 14px;
+	font-weight: normal
+}
+ul.menumulti-menu li .sub-container.non-mega li a:hover {
+}

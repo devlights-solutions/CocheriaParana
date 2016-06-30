@@ -1,0 +1,40 @@
+[23-Sep-2013 09:51:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 49
+[23-Sep-2013 11:06:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 79
+[23-Sep-2013 11:06:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep/misas/misas_gral_ctes.php on line 79
+[31-Oct-2013 17:20:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 46
+[31-Oct-2013 17:20:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 83
+[31-Oct-2013 17:28:37] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 46
+[31-Oct-2013 17:28:37] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 83
+[31-Oct-2013 17:28:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 46
+[31-Oct-2013 17:28:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 83
+[31-Oct-2013 17:29:48] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 83
+[31-Oct-2013 17:39:48] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes.php on line 83
+[17-Nov-2013 17:53:35] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_copia.php on line 39
+[17-Nov-2013 17:53:44] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_copia.php on line 39
+[17-Nov-2013 17:54:12] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_copia.php on line 39
+[17-Nov-2013 18:40:28] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[17-Nov-2013 18:41:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[17-Nov-2013 18:42:08] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 8
+[17-Nov-2013 18:42:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[17-Nov-2013 18:42:14] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 8
+[17-Nov-2013 18:42:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[17-Nov-2013 18:42:17] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 8
+[17-Nov-2013 18:42:17] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[17-Nov-2013 18:45:48] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 8
+[17-Nov-2013 18:45:48] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_ctes_fecha.php on line 49
+[05-Nov-2015 18:26:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[05-Nov-2015 18:26:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[11-Nov-2015 13:55:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[11-Nov-2015 13:55:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[19-Dec-2015 01:57:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[19-Dec-2015 01:57:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[29-Jan-2016 07:18:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[29-Jan-2016 07:18:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[15-Mar-2016 17:25:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[15-Mar-2016 17:25:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[26-Apr-2016 12:23:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[26-Apr-2016 12:23:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[18-May-2016 02:25:26] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[18-May-2016 02:25:26] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123
+[18-May-2016 23:28:36] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 118
+[18-May-2016 23:28:36] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/misas/misas_gral_puertorico_fecha.php on line 123

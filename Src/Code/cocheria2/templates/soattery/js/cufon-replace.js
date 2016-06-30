@@ -1,0 +1,1 @@
+Cufon.replace(' #newsflash p', {hover:true });

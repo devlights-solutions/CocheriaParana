@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Cocheria.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Cocheria_cocheria_webserv" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.cocheriadelparana.com.ar/webservice/server.php</Value>
+    </Setting>
+    <Setting Name="Cocheria_ar_com_activacionesclaromg_www_webserv" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.activacionesclaromg.com.ar/activaciones/webservice/server.php</Value>
+    </Setting>
+    <Setting Name="Cocheria_cocheriaTest_webserv" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.cocheriadelparana.com.ar/webservicetest/server.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

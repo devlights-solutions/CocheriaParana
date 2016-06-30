@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="content" method="upgrade">
+	<name>Content - Facebook Share Button</name>
+	<author>Gyula Komar</author>
+	<creationDate>September 2011</creationDate>
+	<authorEmail>gkomar@freemail.hu</authorEmail>
+	<authorUrl>buildweb.eu</authorUrl>
+	<version>1.7.7</version>
+	<description>Replaces {fshare} tag in content with Facebook Share Button</description>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<files>
+		<filename plugin="fshare">fshare.php</filename>
+		<filename>fshare.css</filename>
+		<filename>fshare.png</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="title" type="text" size="20" default="Share" label="Title" description=""/>
+				<field name="app_id" type="text" size="20" default="" label="Facebook Application ID" description=""/>
+				<field name="og_url" type="radio" default="1" label="Add FB URL Property (og:url)" description="">
+					<option value="0">Do not Add</option>
+					<option value="1">Add</option>
+				</field>
+				<field name="og_image" type="text" size="50" default="" label="FB Property (og:image)" description="Needs full URL"/>
+				<field name="share_url" type="radio" default="0" label="FB Share Interface" description="">
+					<option value="0">dialog/feed</option>
+					<option value="1">sharer.php</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

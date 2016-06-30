@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------------------------
+# ah-68-Flexi 2.5 - Dezember 2012 (J2.5)
+# Copyright (C) 2006-2012 www.ah-68.de All Rights Reserved.
+----------------------------------------------------------------------------------*/
+
+.logo-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 448px;
+	height: 140px;
+	background: url(../images/logo/logo.png) no-repeat;
+}
+.logo-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/logo/logo.png) no-repeat;
+	background-position: 0 -140px;
+}
+.home-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-home.png) no-repeat;
+}
+.home-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-home.png) no-repeat;
+	background-position: 0 -30px;
+}
+.facebook-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-facebook.png) no-repeat;
+}
+.facebook-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-facebook.png) no-repeat;
+	background-position: 0 -30px;
+}
+.google-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-google.png) no-repeat;
+}
+.google-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-google.png) no-repeat;
+	background-position: 0 -30px;
+}
+.tweet-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-tweet.png) no-repeat;
+}
+.tweet-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-tweet.png) no-repeat;
+	background-position: 0 -30px;
+}
+.feed-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-feed.png) no-repeat;
+}
+.feed-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-feed.png) no-repeat;
+	background-position: 0 -30px;
+}
+.login-hover {
+	display: inline-block;
+	position: relative;
+	text-indent: -9999px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icons/icons-login.png) no-repeat;
+}
+.login-hover span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/icons/icons-login.png) no-repeat;
+	background-position: 0 -30px;
+}

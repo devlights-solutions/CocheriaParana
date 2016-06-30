@@ -1,0 +1,185 @@
+* {
+margin : 0 auto;
+padding : 0;
+} 
+html, body {
+margin : 0;
+padding : 0;
+} 
+body {
+	margin: 0;
+	padding: 0;
+	background: #F4F2E5;
+	font-family: Arial Narrow;
+	color: #221F20;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #87AE84;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #87AE84;
+	text-align:center;
+}
+
+a {
+	color: #E06529;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* vista de sepelios */
+
+#sep {
+	margin: 5px 5px 5px 5px;
+}
+
+/* menu sepelio individual */
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+	padding-left: 10px;
+    width: 260px;
+    font-family: Arial Narrow;
+    font-size: 11pt;
+	text-align:left;
+}
+#menu ul li {
+}
+#menu ul li a {
+    color: #3D3933;
+    text-decoration: none;
+    display: block;
+    padding: 7px 5px 7px 30px;
+	border-bottom: 1px solid #806950 ;
+}
+#menu ul li a:hover {
+	background: url("images/icon_list.png") 0 3px no-repeat;
+	color: #806950;
+}
+/* vista de sepelios */
+
+#oracion {
+	text-align : center;
+	font-style: italic;
+	padding: 5px 8px 5px 8px;
+}
+#mensaj {
+    font-family: Arial Narrow;
+    font-size: 11pt;
+}
+#nombre-men {
+	padding: 5px 5px 5px 5px;
+}
+#text-men {
+	padding: 12px 5px 12px 5px;
+}
+#alert {
+	color:#004622;
+}
+#titmen {
+	color:#004622;
+}
+
+/* formularios de carga */
+.boton{
+        font-size:12px;
+        font-weight:bold;
+        color:white;
+        background:#004622;
+        border:1px;
+        width:120px;
+        height:25px;
+		cursor: pointer;
+		margin: 7px;
+}
+.mens-alert{
+        font-size:16px;
+        font-weight:bold;
+        color: #006600;
+		margin: 15px 0 15px;
+		text-align:center;
+}
+.mens-alert-nom{
+        font-size:18px;
+        font-weight:bold;
+        color: #990000;
+}
+.btn1 {
+width: 200px;
+margin-top: 0px;
+padding: 5px 25px 5px 25px;
+font-family: Arial Narrow;
+font-size: 12px;
+font-weight:bold;
+text-decoration: none; color: #ffffff;
+text-shadow: -1px -1px 2px #618926;
+background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #a6c250),color-stop(1, #618926));
+border: 1px solid #618926;
+border-radius: 3px; -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+
+}
+
+.btn1 a {
+width: 250px;
+margin-top: 80px;
+padding: 5px 25px 5px 25px;
+font-family: Arial Narrow;
+font-size: 12px;
+font-weight:bold;
+text-decoration: none; color: #ffffff;
+text-shadow: -1px -1px 2px #618926;
+background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #a6c250),color-stop(1, #618926));
+border: 1px solid #618926;
+border-radius: 3px; -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+
+}
+
+.btn1 a:hover {
+text-shadow: -1px -1px 2px #465f97;
+background: -moz-linear-gradient(#245192, #1e3b73 75%, #12295d);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #245192),color-stop(.75, #1e3b73),color-stop(1, #12295d));
+border: 1px solid #0f2557;
+} 
+#text-mod {
+	color:#993300;
+}
+
+/* MISAS */
+
+#titulo_misas {
+	font-size:14px;
+	color: #339900;
+	text-align: left;
+}
+#titulo_misas_det {
+	font-size:20px;
+	color: #339900;
+	font-weight:bold;
+	text-align: left;
+	font-style:italic;
+}
+#desc_misas a{
+	font-size:14px;
+	text-align: left;
+	color:#000000;
+	text-decoration:underline;
+}
+#tabla {
+	border-left: #339900 1px solid;
+}

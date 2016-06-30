@@ -1,0 +1,27 @@
+E:\Santy Rock\Desktop\Cocheria\Cocheria\bin\Debug\Cocheria.exe.config
+E:\Santy Rock\Desktop\Cocheria\Cocheria\bin\Debug\Cocheria.exe
+E:\Santy Rock\Desktop\Cocheria\Cocheria\bin\Debug\Cocheria.pdb
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.csprojResolveAssemblyReference.cache
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.Form1.resources
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.Properties.Resources.resources
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.csproj.GenerateResource.Cache
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.exe
+E:\Santy Rock\Desktop\Cocheria\Cocheria\obj\Debug\Cocheria.pdb
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\bin\Debug\Cocheria.exe.config
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.exe
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.pdb
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\bin\Debug\Cocheria.exe
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\bin\Debug\Cocheria.pdb
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.csprojResolveAssemblyReference.cache
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.Form1.resources
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.Properties.Resources.resources
+E:\Santy Rock\Documents\Trabajos\Pragma\Previsora Parana\Cocheria\Cocheria\obj\Debug\Cocheria.csproj.GenerateResource.Cache
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\bin\Debug\Cocheria.exe.config
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.exe
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.pdb
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\bin\Debug\Cocheria.exe
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\bin\Debug\Cocheria.pdb
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.csprojResolveAssemblyReference.cache
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.Form1.resources
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.Properties.Resources.resources
+E:\Santy Rock\Documents\Trabajos\Devlights\CocheriaParana\Src\Visual Studio\Cocheria\obj\Debug\Cocheria.csproj.GenerateResource.Cache
