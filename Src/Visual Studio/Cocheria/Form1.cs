@@ -28,8 +28,61 @@ namespace Cocheria
         private void BtnCrearSepelio_Click(object sender, EventArgs e)
         {
             cocheriaTest.webserv CrearSepelio = new cocheriaTest.webserv();
-            string _crearSepelio = CrearSepelio.CrearSepelio("Sepelio  de prueba Posadas", DateTime.Now, DateTime.Now, "20:00", "01.02.01.02", "Bella Vista",
-                "Test ñÑa", 55557, "Test", DateTime.Now, "20:00", 55557, "Test", "", 55557, "Test", DateTime.Now, 1, 55557, "Test", "Test", "Test", 55557, "Test", "55557", 55557, "test");
+            string _crearSepelio = CrearSepelio.CrearSepelio(
+                //Nombre//
+                "Sepelio  de prueba Posadas",
+                //Fecha Fallecimiento
+                DateTime.Now,
+                //Fecha Sepelio
+                DateTime.Now,
+                //Hora Inhumacion
+                "20:00", 
+                //Id Localidad
+                "3483", 
+                //Nombre Localidad.
+                "Posadas",
+                //Otro Cementerio.
+                "Test ñÑa", 
+                //Id Sala
+                55558,
+                //Nombre Sala
+                "Test",
+                //Fecha Misa
+                DateTime.Now,
+                //Hora Misa
+                "20:00",
+                //iglesiaId
+                55558, 
+                //Nombre de Iglesia
+                "Test",
+                //Otro Lugar de misa
+                "",
+                //Lugar Inhumacion
+                55558,
+                //Nombre Lugar Inhumacion
+                "Test", 
+                //Fecha de Nacimiento
+                DateTime.Now,
+                //Opcion Inhumacion Cremacion 
+                1, 
+                //Lugar Cremacion
+                55558, 
+                //Nombre Lugar Cremacion
+                "Test",
+                //Nombre Otra sala
+                "Test",
+                //Domicilio Otra Sala
+                "Test", 
+                //Id Oracion
+                55558, 
+                //Nombre Oracion
+                "Test", 
+                //Contenido Oracion
+                "55558", 
+                //Id Cocheria
+                55558, 
+                //Domicilio Sala
+                "test");
             TxtSepelios.Text = _crearSepelio;
         }
     }
