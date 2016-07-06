@@ -127,11 +127,12 @@ function CrearSepelio($nombre,$fechafallecimiento,$fechasepelio,$hora,$localidad
 		
 		
 		//localidad
-		$sql = "SELECT * FROM wsLocalidad where IdCocheria = $localidad"; 
+		$sql = "SELECT * FROM wsLocalidad where IdCocheria = '$localidad'"; 
 		$wslocalidad = mysql_query($sql);
 		$wslocalidad = mysql_fetch_array($wslocalidad);
 		
-		if ($wslocalidad['IdInterno'] == ""){
+		if ($wslocalidad['IdInterno'] == "")
+		{
 			//Crear localidad nueva e insertar también en tabla ws localidad
 			$sql = "INSERT INTO localidad(Nombre,date_time) VALUES ('$nombrelocalidad',NOW())";
 			mysql_query($sql);
@@ -141,9 +142,9 @@ function CrearSepelio($nombre,$fechafallecimiento,$fechasepelio,$hora,$localidad
 			$interno = mysql_fetch_array($interno);
 			$interno = $interno['id'];
 			
-			$sql = "INSERT INTO wsLocalidad(Descripcion, IdCocheria, IdInterno,date_time) VALUES ('$nombrelocalidad',$localidad,$interno,NOW())";
+			$sql = "INSERT INTO wsLocalidad(Descripcion, IdCocheria, IdInterno,date_time) VALUES ('$nombrelocalidad','$localidad',$interno,NOW())";
 			mysql_query($sql);
-			}
+		}
 		else{
 			$interno= $wslocalidad['IdInterno'];
 			if ($wslocalidad['Descripcion']!= $nombrelocalidad)
@@ -424,7 +425,7 @@ function CrearSepelio($nombre,$fechafallecimiento,$fechasepelio,$hora,$localidad
 	else
 	{
 	// Update SEPELIO
-		$sql = "SELECT * FROM wsLocalidad where IdCocheria = $localidad"; 
+		$sql = "SELECT * FROM wsLocalidad where IdCocheria = '$localidad'"; 
 		$wslocalidad = mysql_query($sql);
 		$wslocalidad = mysql_fetch_array($wslocalidad);
 		
@@ -438,7 +439,7 @@ function CrearSepelio($nombre,$fechafallecimiento,$fechasepelio,$hora,$localidad
 			$interno = mysql_fetch_array($interno);
 			$interno = $interno['id'];
 			
-			$sql = "INSERT INTO wsLocalidad(Descripcion, IdCocheria, IdInterno,date_time) VALUES ('$nombrelocalidad',$localidad,$interno,NOW())";
+			$sql = "INSERT INTO wsLocalidad(Descripcion, IdCocheria, IdInterno,date_time) VALUES ('$nombrelocalidad','$localidad',$interno,NOW())";
 			mysql_query($sql);
 			}
 		else{
@@ -1002,7 +1003,7 @@ $servicio->register("CrearSepelio",array("Nombre" =>"xsd:string"
 						,"FechaFallecimiento" => "xsd:date"
 						,"FechaSepelio" =>"xsd:date"
 						,"HoraInhumacion" =>"xsd:string"
-						,"Localidad" =>"xsd:int"
+						,"Localidad" =>"xsd:string"
 						,"NombreLocalidad" => "xsd:string"
 						,"OtroCementerioCrematorio" =>"xsd:string"
 						,"Sala" =>"xsd:int"

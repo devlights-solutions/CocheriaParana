@@ -15,7 +15,7 @@
     <wsdl:part name="FechaFallecimiento" type="xsd:date" />
     <wsdl:part name="FechaSepelio" type="xsd:date" />
     <wsdl:part name="HoraInhumacion" type="xsd:string" />
-    <wsdl:part name="Localidad" type="xsd:int" />
+    <wsdl:part name="Localidad" type="xsd:string" />
     <wsdl:part name="NombreLocalidad" type="xsd:string" />
     <wsdl:part name="OtroCementerioCrematorio" type="xsd:string" />
     <wsdl:part name="Sala" type="xsd:int" />

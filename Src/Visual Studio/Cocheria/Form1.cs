@@ -20,14 +20,14 @@ namespace Cocheria
         private void BtnVerSepelios_Click(object sender, EventArgs e)
         {
             //cocheria.webserv CallWebService = new cocheria.webserv();
-            cocheriaTest.webserv CallWebService = new cocheriaTest.webserv();
+            cocheria.webserv CallWebService = new cocheria.webserv();
             String sGetValue = CallWebService.ConsultaSepelios();
             TxtSepelios.Text = sGetValue;
         }
 
         private void BtnCrearSepelio_Click(object sender, EventArgs e)
         {
-            cocheriaTest.webserv CrearSepelio = new cocheriaTest.webserv();
+            cocheria.webserv CrearSepelio = new cocheria.webserv();
             string _crearSepelio = CrearSepelio.CrearSepelio(
                 //Nombre//
                 "Sepelio  de prueba Posadas",
@@ -44,9 +44,9 @@ namespace Cocheria
                 //Otro Cementerio.
                 "Test ñÑa", 
                 //Id Sala
-                55558,
+                35,
                 //Nombre Sala
-                "Test",
+                "SALON DE PAZ",
                 //Fecha Misa
                 DateTime.Now,
                 //Hora Misa
