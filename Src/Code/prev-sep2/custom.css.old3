@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+velas.jpg {
+   background: url('../fondos/velas.jpg') no-repeat;
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+   /* height: 160px;
+	width:350px;*/
+}
+paloma.jpg{
+   background: url('../fondos/paloma.jpg') no-repeat;
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+   /* height: 160px;
+	width:350px;*/
+}
+
