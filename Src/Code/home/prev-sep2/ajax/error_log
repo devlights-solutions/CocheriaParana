@@ -1,0 +1,31 @@
+[19-Nov-2013 08:39:34] PHP Fatal error:  Function name must be a string in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 4
+[19-Nov-2013 08:40:48] PHP Fatal error:  Function name must be a string in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 4
+[19-Nov-2013 08:42:00] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 7
+[19-Nov-2013 08:44:54] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 12
+[19-Nov-2013 08:48:18] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:48:56] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:48:56] PHP Fatal error:  Call to undefined function mysqli_fetch_array() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 23
+[19-Nov-2013 08:52:33] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:52:33] PHP Fatal error:  Call to undefined function mysqli_fetch_array() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 23
+[19-Nov-2013 08:53:03] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:53:03] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 23
+[19-Nov-2013 08:53:03] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 31
+[19-Nov-2013 08:53:35] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:53:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 23
+[19-Nov-2013 08:56:19] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 08:56:19] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 23
+[19-Nov-2013 08:56:48] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/getuser.php on line 16
+[19-Nov-2013 09:11:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:11:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:11:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:12:12] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:12:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:14:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 56
+[19-Nov-2013 09:51:15] PHP Parse error:  syntax error, unexpected $end in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 77
+[19-Nov-2013 09:53:09] PHP Parse error:  syntax error, unexpected $end in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 77
+[19-Nov-2013 09:55:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
+[19-Nov-2013 09:55:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
+[19-Nov-2013 09:55:51] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
+[19-Nov-2013 09:55:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
+[19-Nov-2013 09:56:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
+[19-Nov-2013 09:56:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/cocheria/public_html/cocheria2/prev-sep2/ajax/misas_gral_ctes_fecha.php on line 40
