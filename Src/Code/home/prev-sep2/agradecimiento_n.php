@@ -70,7 +70,7 @@ include('conexion.php');
 						echo '<div class="col-sm-9" id="texmen"><input type="text" name="Nombre" ></div>';
 					echo '</div>';
 					echo '<div class="col-sm-2" id="titmen"><b>Para:</b></div>';
-					$query="SELECT * FROM localidad WHERE id = 2 OR id = 3 OR id =4 OR id = 5 OR id = 6 OR id = 7 OR id = 8 OR id = 10 OR id = 11"; 
+					$query="SELECT * FROM localidad WHERE id = 2 OR id = 3 OR id =4 OR id = 5 OR id = 6 OR id = 7 OR id = 8 OR id = 10 OR id = 11 OR id = 24 OR id = 23 ORDER BY Nombre"; 
 					$r = mysql_query($query);
 					$menu="<select name='menu'><option selected>Sucursal:</option>"; 
 					while($registro=mysql_fetch_array($r)) 
