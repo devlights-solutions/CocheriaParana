@@ -4,6 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
 <title>AGRADECIMIENTOS SUCURSAL POSADAS</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+  <script src="bootstrapjs/bootstrap.min.js"></script>
 	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <style type="text/css">
 body {
@@ -15,16 +17,20 @@ body {
 <BODY>
 
 <?php include('conexion.php'); ?>
-<table width="90%" align="center">
+<!--<table width="90%" align="center">
   <tr>
-    <td>
+    <td> -->
+    <div class="container-fluid"  align="center">
 	 <h1>Sus palabras nos fortalecen...</h1><br>
-    </td>
+     </div>
+   <!-- </td>
    </tr>
-   <tr><br /></tr>
-      <tr><br /></tr>
-</table>
-<table width="90%" align="center" border="0" cellpadding="1" cellspacing="1" background="transparent">
+   <tr> --><br /><!--</tr> -->
+      <!--<tr> --><br /><!--</tr>
+</table> -->
+
+<div class="container-fluid">
+<!--<table width="90%" align="center" border="0" cellpadding="1" cellspacing="1" background="transparent"> -->
 
 <?php
 $sql= "SELECT * FROM aggradecimiento where Estado=2 AND Destinatario=5 order by date_time desc";
@@ -38,20 +44,50 @@ while($sep = mysql_fetch_array($res))
 		$sucursal = mysql_fetch_array($sucursales);
 		echo "
 		<br>
-		<table width='90%'>
-			<tr><td height='30' width='80' bgcolor='E8E3C3' style='font-weight:bold'>&nbsp&nbsp&nbspDE </td><td>&nbsp&nbsp&nbsp".$sep['Nombre']."</td></tr>
-			<tr><td height='3'></td><td></td></tr>
-			<tr><td height='30' bgcolor='E8E3C3' style='font-weight:bold'>&nbsp&nbsp&nbspPARA </td><td>&nbsp&nbsp&nbspSucursal ".$sucursal['Sucursal']."</td></tr>
-			<tr><td height='5'></td><td></td></tr>
-			<tr><td height='30' bgcolor='E8E3C3' style='font-weight:bold'>&nbsp&nbsp&nbspMENSAJE </td><td>&nbsp&nbsp&nbsp".$sep['Mensaje']."</td></tr>
-			<tr><td height='30' align='center'></td><td><h1>................................................................................................</h1></td></tr>
+
+		<div class='container-fluid'>
+			<div class='row col-sm-12'>
+				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
+					DE 
+				</div>
+				
+				<div class='col-sm-9'>
+					".$sep['Nombre']."
+				</div>
+			</div>
+		
+			
+			<div class='row col-sm-12'>
+				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
+					PARA 
+				</div>
+				<div class='col-sm-9'>
+					Sucursal ".$sucursal['Sucursal']."
+				</div>
+			</div>
+			
+			
+			<div class='row col-sm-12'>
+				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
+					MENSAJE 
+				</div>
+				<div class='col-sm-9'>
+					".$sep['Mensaje']."
+				</div>
+			</div>
+			
+			<div class='row col-sm-12'>
+				
+					<h1>................................................................................................</h1>
+			</div>
 						";
-			echo"</table>
+			echo"</div>
 			
 	";
 }//CIERRO: while($sep = mysql_fetch_array($sql))
 ?>
-</table>
+</div>
+<!--</table> -->
 <?php mysql_close();?>
 </BODY>
 </HTML>

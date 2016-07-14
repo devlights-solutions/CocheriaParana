@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>AGRADECIMIENTOS SUCURSAL PUERTO RICO</title>
+<title>AGRADECIMIENTOS SUCURSAL CONCEPCION</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
   <script src="bootstrapjs/bootstrap.min.js"></script>
 	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
@@ -33,15 +33,16 @@ body {
 <!--<table width="90%" align="center" border="0" cellpadding="1" cellspacing="1" background="transparent"> -->
 
 <?php
-$sql= "SELECT * FROM aggradecimiento where Estado=2 AND Destinatario=8 order by date_time desc";
+$sql= "SELECT * FROM aggradecimiento where Estado=2 AND Destinatario=24 order by date_time desc";
 $res=mysql_query($sql);
 
 while($sep = mysql_fetch_array($res))
 {
 		$fecha = $sep['date_time'];
 		preg_match('/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/',$fecha,$partes);
-		$sucursales= mysql_query("SELECT id, Nombre as Sucursal FROM localidad WHERE id='".$sep['Destinatario']."'");
+		$sucursales= mysql_query("SELECT id, Nombre as Sucursal FROM localidad WHERE  id = 24");
 		$sucursal = mysql_fetch_array($sucursales);
+		
 		echo "
 		<br>
 

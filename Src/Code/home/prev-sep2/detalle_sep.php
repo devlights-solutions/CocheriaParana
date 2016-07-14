@@ -227,7 +227,7 @@ if($cod)
             <tr>
                 <td><center> 
                
-                <img src='/home<?php echo $foto_sep ?>' border='0' width='auto'>
+                <img src='/home<?php echo $foto_sep ?>' border='0' style="width: 100% !important; height: auto;">
                 <!--<img src='/home<?php //echo $foto_sep ?>' border='0' width='120'> -->
                 
                </center>

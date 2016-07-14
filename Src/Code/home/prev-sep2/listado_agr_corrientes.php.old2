@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>AGRADECIMIENTOS SUCURSAL PUERTO RICO</title>
+<title>AGRADECIMIENTOS SUCURSAL CORRIENTES</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
   <script src="bootstrapjs/bootstrap.min.js"></script>
 	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
@@ -33,52 +33,62 @@ body {
 <!--<table width="90%" align="center" border="0" cellpadding="1" cellspacing="1" background="transparent"> -->
 
 <?php
-$sql= "SELECT * FROM aggradecimiento where Estado=2 AND Destinatario=8 order by date_time desc";
+$sql= "SELECT * FROM aggradecimiento where Estado=2 AND Destinatario=11 order by date_time desc";
 $res=mysql_query($sql);
 
 while($sep = mysql_fetch_array($res))
 {
 		$fecha = $sep['date_time'];
 		preg_match('/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/',$fecha,$partes);
-		$sucursales= mysql_query("SELECT id, Nombre as Sucursal FROM localidad WHERE id='".$sep['Destinatario']."'");
+		$sucursales= mysql_query("SELECT id, Nombre as Sucursal FROM localidad WHERE id=1 or id = 11");
 		$sucursal = mysql_fetch_array($sucursales);
+		
 		echo "
 		<br>
 
 		<div class='container-fluid'>
-			<div class='row col-sm-12'>
+		<div class='row col-sm-12'>
 				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
-					DE 
+					&nbsp&nbsp&nbspDE 
 				</div>
 				
 				<div class='col-sm-9'>
-					".$sep['Nombre']."
+					&nbsp&nbsp&nbsp".$sep['Nombre']."
 				</div>
 			</div>
-		
+			<div class='row col-sm-12'>
+				<td height='3'>
+				</td>
+				<td>
+				</td>
+			</div>
 			
 			<div class='row col-sm-12'>
 				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
-					PARA 
+					&nbsp&nbsp&nbspPARA </td><td>&nbsp&nbsp&nbspSucursal ".$sucursal['Sucursal']."
 				</div>
-				<div class='col-sm-9'>
-					Sucursal ".$sucursal['Sucursal']."
-				</div>
+			</div
+			
+			<div class='row col-sm-12'>
+				<td height='5'>
+				</td>
+				<td>
+				</td>
 			</div>
-			
-			
 			<div class='row col-sm-12'>
 				<div class='col-sm-3' style='font-weight:bold;background-color: #E8E3C3;'>
-					MENSAJE 
+					&nbsp&nbsp&nbspMENSAJE 
 				</div>
 				<div class='col-sm-9'>
-					".$sep['Mensaje']."
+					&nbsp&nbsp&nbsp".$sep['Mensaje']."
 				</div>
 			</div>
-			
 			<div class='row col-sm-12'>
-				
+				<td height='30' align='center'>
+				</td>
+				<td>
 					<h1>................................................................................................</h1>
+				</td>
 			</div>
 						";
 			echo"</div>

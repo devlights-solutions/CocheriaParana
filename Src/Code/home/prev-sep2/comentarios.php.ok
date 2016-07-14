@@ -1,15 +1,10 @@
-<div class="container-fluid" align="center">
-<!--<table width="705" align="center" id="mensaj"> -->
-	<!--<tr> -->
-    <div class="row col-sm-12">
-		<!--<td valign="top"> -->
-		<!--<table width="100%">
-        <tr> -->
-        <div class="container-fluid" align="center">
-		 	<div class="row col-sm-12"> 
-			<!--<td valign="top"> -->
-            <div class="container-fluid" align="center">
-			<!--<table cellpadding="2" cellspacing="0"> -->
+<table width="705" align="center" id="mensaj">
+	<tr>
+		<td valign="top">
+		<table width="100%">
+		  <tr>
+			<td valign="top">
+			<table cellpadding="2" cellspacing="0">
 			<?php
 							
 				if ($_GET[pg]==""){
@@ -27,18 +22,18 @@
 				$total_records = mysql_num_rows($contarok);
 				$pages = intval($total_records / $cantidad);
 			
-				echo '<div class="row col-sm-12"> ';
+				echo '<tr>';
 				echo '	<form action="" method="GET">';
-				echo '<div align="center" >';//'	<td width="100%" bgcolor="#719AB8">
+				echo '	<td width="100%" bgcolor="#719AB8"><div align="center" >';
 				if ($error){
 					echo '<font id="titmen">'.$error.'</font>';
 				}elseif($resagre){
 					echo '<font id="titmen">Su mensaje se ha agregado al libro</font>';
 				}
 
-				echo '</div>';
+				echo '</div></td>';
 				echo '	</form>';
-				echo '</div>';
+				echo '</tr>';
 				//navegador
 					echo '<table cellspacing="0" cellpadding="2" border="0" aling="center" width="100%" bgcolor="#ffffff">';
 					echo '<tr>';
@@ -133,14 +128,11 @@
 					else {
 					echo " ";
 					}
-					echo '</center></td>';;
-					echo '</div>';
+					echo '</center></td>';
+					echo '</table>';
 		
 			?>
-            </div>
-		<!--</table> -->
-		<!--</td> -->
-		<!--</tr> -->
-<!--</table> -->
-	</div>
-</div>
+		</table>
+		</td>
+		</tr>
+</table>

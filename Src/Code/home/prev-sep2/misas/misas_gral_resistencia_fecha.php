@@ -18,18 +18,27 @@
 <?php include('../conexion.php'); ?>
 
 
-<table width="705" align="center">
+<!--<table width="705" align="center">
   <tr>
-    <td>
+    <td> -->
+    <div class="container-fluid" align="center">
 	 <h1>RESISTENCIA / MISAS <?php echo $DiaMisa?></h1>
-   </td>
+    </div>
+<!--   </td>
    </tr>
-</table>
-<table width="705" align="center">
-  <tr><td align="center"><img src="img/misas.jpg" border="0" /></td></tr>
-</table>
-<table width="705" align="center" border="0" cellpadding="0" cellspacing="10">
-<tr><td>
+</table> -->
+<!--<table width="705" align="center">
+  <tr><td align="center"> -->
+  <div class="container-fluid" align="center">
+  <img src="img/misas.jpg" border="0"  width="100% !important" height="auto"/>
+  </div>
+  <!--</td></tr>
+</table> -->
+<!--<table class="table" width="705" align="center" border="0" cellpadding="0" cellspacing="10"> -->
+<div class="container-fluid" align="left">
+   <!--<tr>
+        <td> -->
+        <div class="row col-sm-12">
 <!--Dropdown Mes -->
 <form id="form2" name="form2" method="get" action="<?php echo "misas_gral_resistencia_fecha.php?fechamisa="; ?>">
             Mes :
@@ -67,10 +76,13 @@
             </select>
             <input type="submit" name="Submit" value="Ver Resultados" />
         </form>
- </td></tr>
- 
- 
-<tr>
+
+<!--        </td>
+	</tr> -->
+ </div>
+ </br></br>
+ <div class="row col-sm-12">
+<!--<tr> -->
 
 <?php
 //Lugares Predeterminados
@@ -89,9 +101,9 @@ $fecha2 = $mis2['Dia'];
 preg_match('/(\d{4})-(\d{2})-(\d{2})/',$fecha2,$partes2);
 
 echo "
-<td id='titulo_misas'>Lugar: ".$iglesias['Nombre']."</td>
-<tr><td id='titulo_misas'>Fecha: ".$partes2[3]."/".$partes2[2]."/".$partes2[1]."</td></tr>
-<tr><td id='titulo_misas'>En conmemoración de:</td></tr>
+<div class='row col-sm-12' id='titulo_misas'>Lugar: ".$iglesias['Nombre']."</div>
+<div class='row col-sm-12' id='titulo_misas'>Fecha: ".$partes2[3]."/".$partes2[2]."/".$partes2[1]."</div>
+<div class='row col-sm-12' id='titulo_misas'>En conmemoración de:</div>
 ";
 while($mis = mysql_fetch_array($res))
 {
@@ -101,16 +113,18 @@ while($mis = mysql_fetch_array($res))
 		
 	
 		echo "
-		<tr><td><a href='http://www.cocheriadelparana.com.ar/home/prev-sep2/detalle_sep.php?idsep=".$mis['id']."'>	".ucwords(strtolower($mis['Nombre']))." - Fecha Fallecimiento: ".$partes[3]."/".$partes[2]."/".$partes[1]."</a></td></tr>
+		<div class='row col-sm-12'><br><a href='http://www.cocheriadelparana.com.ar/home/prev-sep2/detalle_sep.php?idsep=".$mis['id']."'>	".ucwords(strtolower($mis['Nombre']))." - Fecha Fallecimiento: ".$partes[3]."/".$partes[2]."/".$partes[1]."</a></div>
 			
 		";
-}//CIERRO: while($sep = mysql_fetch_array($sql))
-		echo "</tr>
-		<tr><td><br></td></tr>"
+}//CIERRO: while($sep = mysql_fetch_array($sql))//<tr><td><br></td></tr>
+		echo "</div><br>
+		"
 		;}
 }
 ?>
-
+</div>
+ </br>
+ <div class="row col-sm-12">
 <?php
 //Iglesias NO Predeterminadas
 $sqliglesia ="SELECT * FROM  `iglesias` WHERE  Nombre =  'Otro'";
@@ -132,9 +146,9 @@ $fecha2 = $mis2['Dia'];
 preg_match('/(\d{4})-(\d{2})-(\d{2})/',$fecha2,$partes2);
 
 echo "
-<td id='titulo_misas'>Lugar: ".$iglesias['OtroLugar']."</td>
-<tr><td id='titulo_misas'>Fecha: ".$partes2[3]."/".$partes2[2]."/".$partes2[1]."</td></tr>
-<tr><td id='titulo_misas'>En conmemoración de:</td></tr>
+<div class='row col-sm-12' id='titulo_misas'>Lugar: ".$iglesias['OtroLugar']."</div>
+<div class='row col-sm-12' id='titulo_misas'>Fecha: ".$partes2[3]."/".$partes2[2]."/".$partes2[1]."</div>
+<div class='row col-sm-12' id='titulo_misas'>En conmemoración de:</div>
 ";
 while($mis = mysql_fetch_array($res))
 {
@@ -144,12 +158,11 @@ while($mis = mysql_fetch_array($res))
 		
 	
 		echo "
-		<tr><td><a href='http://www.cocheriadelparana.com.ar/home/prev-sep2/detalle_sep.php?idsep=".$mis['id']."'>	".ucwords(strtolower($mis['Nombre']))." - Fecha Fallecimiento: ".$partes[3]."/".$partes[2]."/".$partes[1]."</a></td></tr>
+		<div class='row col-sm-12'><br><a href='http://www.cocheriadelparana.com.ar/home/prev-sep2/detalle_sep.php?idsep=".$mis['id']."'>	".ucwords(strtolower($mis['Nombre']))." - Fecha Fallecimiento: ".$partes[3]."/".$partes[2]."/".$partes[1]."</a></div>
 			
 		";
 }//CIERRO: while($sep = mysql_fetch_array($sql))
-		echo "</tr>
-		<tr><td><br></td></tr>"
+		echo "</div><br>"
 		;}
 }
 ?>
@@ -157,7 +170,8 @@ while($mis = mysql_fetch_array($res))
 </td>
 </td>
 </tr>
-</table>
+</div>
+<!--</table> -->
 </td></tr>
 
 </table>
